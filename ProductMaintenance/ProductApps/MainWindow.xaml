@@ -16,6 +16,8 @@
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
         <Label x:Name="Total_charge" Content="Total Charge after adding &#xD;&#xA;the delivery charge(25$):" HorizontalAlignment="Left" Margin="23,200,0,0" VerticalAlignment="Top" Width="151" Height="43"/>
         <TextBlock x:Name="totalChargeTextBox" HorizontalAlignment="Left" Margin="180,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="30"/>
+        <Label Content="Total Charge after adding&#xD;&#xA; the wrap charge(5$):" HorizontalAlignment="Left" Margin="23,248,0,0" VerticalAlignment="Top" Height="45"/>
+        <TextBlock x:Name="OtherChargeTextBox" HorizontalAlignment="Left" Margin="180,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="30" />
 
 
     </Grid>
