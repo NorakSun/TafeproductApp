@@ -38,6 +38,7 @@ namespace ProductApps
 
                 totalChargeTextBox.Text = Convert.ToString(cProduct.TotalPayment + 25); 
                 OtherChargeTextBox.Text = Convert.ToString(cProduct.TotalPayment + 25 + 5);
+                GSTTextbox.Text = Convert.ToString((cProduct.TotalPayment + 25 + 5)*(1.1m));
 
             }
             catch (FormatException)
